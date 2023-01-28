@@ -1,0 +1,1069 @@
+body {
+  margin: 0;
+}
+.container {
+  max-width: 950px;
+  margin: 0 auto;
+}
+.header {
+  width: 100%;
+  height: 60px;
+  border-bottom: 1px solid;
+  border-color: #e5e5e5;
+}
+.header_content {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  display: flex;
+  padding-top: 15px;
+}
+.eldorado_log {
+  background-image: url("../image_header/Logo.png");
+  background-size: cover;
+  width: 95px;
+  height: 40px;
+}
+
+.text_log {
+  font-family: "PT Root UI";
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+  opacity: 0.7;
+  padding-top: 11px;
+  padding-left: 33px;
+}
+.menu {
+  margin-top: 14px;
+  width: 32px;
+  height: 32px;
+  background-image: url("../image_header/menu.png");
+}
+.progressbar {
+  width: 22%;
+  margin-top: -1px;
+  height: 3px;
+  background: red;
+}
+.more_features_heading {
+  font-family: "PT Root UI", sans-serif;
+  font-size: 38px;
+  line-height: 50px;
+  color: #000000;
+  padding-top: 40px;
+  margin: 0;
+}
+.gray_border {
+  background: #00000036;
+  height: 1px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.new_design {
+  font-family: "PT Root UI", sans-serif;
+  font-size: 30px;
+  line-height: 40px;
+  color: #000000;
+  margin: 0;
+  padding-top: 40px;
+}
+.black_back {
+  background: #171717;
+  border-radius: 5px;
+  width: 222px;
+  height: 304px;
+}
+.img_mobile {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 30px;
+  background-image: url("../image_main/mobile_galaxy.png");
+  width: 162px;
+  height: 112px;
+}
+
+.gray_img_mobile {
+  opacity: 0.25;
+  width: 192px;
+  height: 1px;
+  background: #646464;
+  margin-top: 112px;
+  margin-left: -15px;
+}
+.text_mobile {
+  font-family: "PT Root UI";
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+  width: 189px;
+  height: 126px;
+  padding-top: 20px;
+}
+.img_black_white {
+  background-image: url("../image_main/white_black.jpg");
+  width: 154px;
+  height: 180px;
+  margin-left: 54px;
+}
+.new_design_wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 54px;
+}
+.border_black_grey {
+  background: #e5e5e5;
+  width: 223px;
+  height: 1px;
+  margin-top: 25px;
+}
+.text_models10 {
+  width: 223px;
+  height: 120px;
+  font-family: "PT Root UI";
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  padding-top: 20px;
+}
+.mobile_color {
+  background-image: url("../image_main/colours_s10.png");
+  width: 60px;
+  height: 61px;
+  margin-left: 102px;
+}
+.text_mobile_color {
+  padding-top: 20px;
+  font-family: "PT Root UI";
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+.glass_corning {
+  background-image: url("../image_main/gorilla_glass.jpg");
+  width: 60px;
+  height: 61px;
+  margin-left: 100px;
+}
+.text_corning {
+  font-family: "PT Root UI";
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  padding-top: 20px;
+}
+.border_print_on_the_screen {
+  background: #00000036;
+  height: 1px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+.scanner {
+  font-family: "PT Root UI";
+  font-size: 30px;
+  line-height: 40px;
+  color: #000000;
+  margin: 0;
+  padding-top: 39px;
+}
+
+.scanner_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.shooting_quality {
+  display: flex;
+  margin-top: 50px;
+}
+.phone_samsung {
+  background-image: url("../image_main/phone_samsung.png");
+  width: 465px;
+  height: 248px;
+  margin-top: 50px;
+}
+.logo_shooting {
+  background-image: url("../image_main/качество_съемки.png");
+  width: 60px;
+  height: 60px;
+  margin-top: 39px;
+}
+.logo_photo {
+  background-image: url("../image_main/стабилизация.png");
+  width: 60px;
+  height: 60px;
+  margin-top: 96px;
+}
+.slow_motion {
+  background-image: url("../image_main/замедленная_съемка.png");
+  width: 61px;
+  height: 60px;
+  margin-top: 101px;
+}
+.text_logo_photo {
+  margin-top: 40px;
+  font-family: "PT Root UI";
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  width: 343px;
+  height: 72px;
+}
+.text_motion {
+  margin-top: 40px;
+  font-family: "PT Root UI";
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  width: 343px;
+  height: 144px;
+}
+.wrapper_photo {
+  margin-top: 48px;
+}
+.text_shooting {
+  font-family: "PT Root UI";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  height: 144px;
+  left: 122px;
+}
+.accessories_heading {
+  padding-top: 100px;
+  font-family: "PT Root UI";
+  font-size: 30px;
+  line-height: 40px;
+  color: #000000;
+  margin: 0;
+}
+.wrapper_accessories {
+  width: 670px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 54px;
+}
+.img_phone_accessories {
+  background-image: url("../image_main/three_galaxy_phone.png");
+  width: 222px;
+  height: 115px;
+}
+
+.accessories_border_gray {
+  margin-top: 25px;
+  background: #e5e5e5;
+  width: 222px;
+  height: 1px;
+}
+.accessories_text {
+  margin-top: 20px;
+  font-family: "PT Root UI";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+.img_phone_accessories_1 {
+  background-image: url("../image_main/galaxy-watch.png");
+  width: 222px;
+  height: 115px;
+}
+.galaxy_text_info {
+  font-family: "PT Root UI";
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  font-weight: 500;
+  margin-top: 20px;
+}
+._black_progressbar {
+  position: absolute;
+  width: 50px;
+  height: 1px;
+  background: #000000;
+}
+
+.gray_progressbar {
+  background: #e5e5e5;
+  width: 223px;
+  height: 1px;
+}
+.samsung_apps_and_services_heding {
+  font-family: "PT Root UI";
+  font-size: 30px;
+  line-height: 40px;
+  color: #000000;
+  padding-top: 40px;
+  margin: 0;
+}
+.app_border {
+  margin-top: 60px;
+  background: #00000036;
+  height: 1px;
+}
+.app_logo_smart {
+  background-image: url("../image_main/Smart_Switch.png");
+  width: 60px;
+  height: 61px;
+  margin-left: 121px;
+}
+.app_wrapper {
+  display: flex;
+  margin-top: 50px;
+}
+.app_logo_smart_2 {
+  width: 60px;
+  height: 61px;
+  background-image: url("../image_main/Samsung_Health.png");
+  margin-left: 121px;
+}
+.text_description_app {
+  font-family: "PT Root UI";
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  margin-top: 20px;
+}
+.app_logo_smart_3 {
+  width: 60px;
+  height: 61px;
+  background-image: url("../image_main/Bixby.png");
+  margin-left: 121px;
+}
+.logo_wrapper_2 {
+  display: flex;
+  margin-top: 74px;
+  margin-bottom: 100px;
+}
+.app_logo_pay_ {
+  margin-left: 121px;
+  background-image: url("../image_main/Samsung_pay.png");
+  width: 60px;
+  height: 61px;
+}
+.app_logo_smart_thing {
+  margin-left: 121px;
+  background-image: url("../image_main/Frame\ 3.png");
+  width: 60px;
+  height: 61px;
+}
+.smart_info_wrapper_ {
+  margin-left: 20px;
+}
+.smart_info_2 {
+  margin-left: 20px;
+}
+.smart_info_3 {
+  margin-left: 20px;
+}
+
+.design_black_mobile {
+  display: flex;
+}
+.black_and_white_mobile {
+  margin-left: 20px;
+}
+.wrapper_two_phone_ {
+  display: none;
+}
+.wrapper_app_icon {
+  display: none;
+}
+.scanner_1 {
+  display: none;
+}
+.phone_samsung_1 {
+  display: none;
+}
+.shooting_quality_mobil {
+  display: none;
+}
+.img_phone_mobile {
+  display: none;
+}
+.img_phone_mobile_1 {
+  display: none;
+}
+.accessories_border_gray_mobile {
+  display: none;
+}
+.accessories_text_1 {
+  display: none;
+}
+.app_border_mobil {
+  display: none;
+}
+.galaxy_text_block_wrapper_1 {
+  display: none;
+}
+.galaxy_text_block_wrapper_2 {
+  display: none;
+}
+.text_description_app_1 {
+  display: none;
+}
+.progressbar_gray {
+  display: none;
+}
+.mini_mobile {
+  display: none;
+}
+.shooting_a_video_mobile {
+  display: none;
+}
+.accessory_phones_of_choice {
+  display: none;
+}
+.service_applacation_samsung_wrapper {
+  display: none;
+}
+
+@media screen and (max-width: 720px) {
+  .container {
+    max-width: 670px;
+    margin: 0 25px;
+  }
+  .new_design_wrapper {
+    display: none;
+  }
+  .gray_border {
+    display: none;
+  }
+  .wrapper_two_phone_ {
+    display: block;
+  }
+  .wrapper_mobile {
+    background: #171717;
+    border-radius: 5px;
+    width: 325px;
+    height: 333px;
+  }
+  .back_black_mobile {
+    margin-top: 20px;
+    position: absolute;
+    margin-left: 30px;
+    width: 265px;
+    height: 183px;
+    background-image: url("../image_main/mobile_galaxy_2.png");
+  }
+  .text_mobile_1 {
+    padding-top: 204px;
+    font-family: "PT Root UI";
+    font-size: 14px;
+    line-height: 21px;
+    color: #ffffff;
+    width: 295px;
+  }
+  .gray_mobile {
+    position: absolute;
+    opacity: 0.25;
+    width: 296px;
+    height: 1px;
+    background: #646464;
+    margin-top: 183px;
+    margin-left: -15px;
+  }
+  .gray_mobile_border {
+    background: #e5e5e5;
+    width: 325px;
+    height: 1px;
+    margin-top: 25px;
+  }
+  .white_mobile_and_black {
+    background-image: url("../image_main/white_black.jpg");
+    width: 154px;
+    height: 180px;
+    margin-left: 54px;
+  }
+  .text_mobile_2 {
+    margin-top: 20px;
+    font-family: "PT Root UI";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+  }
+  .white_mobile_wrapper {
+    margin-left: 20px;
+  }
+  .mobile_phones_wrapper {
+    display: flex;
+    width: 670px;
+    margin-top: 40px;
+  }
+  .border_two_gray {
+    width: 670px;
+    height: 1px;
+    background: #e5e5e5;
+    margin-top: 40px;
+  }
+  .border_print_on_the_screen {
+    display: none;
+  }
+
+  .icon_four_color {
+    margin-left: 102px;
+    height: 60px;
+    width: 61px;
+    background-image: url("../image_main/colours_s10.png");
+  }
+  .text_four_color {
+    margin-top: 20px;
+    font-family: "PT Root UI";
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+  }
+  .icon_gorilla_glass {
+    margin-left: 102px;
+    height: 61px;
+    width: 61px;
+    background-image: url("../image_main/gorilla_glass.jpg");
+  }
+  .text_gorilla_glass {
+    margin-top: 20px;
+    font-family: "PT Root UI";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #000000;
+  }
+  .wrapper_app_icon {
+    display: block;
+    display: flex;
+    margin-top: 50px;
+    width: 670px;
+  }
+  .icon_app_one {
+    width: 325px;
+  }
+  .icon_app_two {
+    width: 325px;
+    margin-left: 20px;
+  }
+  .header_content {
+    width: 670px;
+  }
+  .scanner_1 {
+    display: block;
+    font-family: "PT Root UI";
+    font-size: 30px;
+    line-height: 40px;
+    color: #000000;
+    margin: 0;
+    padding-top: 39px;
+  }
+  .scanner {
+    display: none;
+  }
+  .scanner_wrapper {
+    width: 670px;
+  }
+  .text_shooting {
+    width: 203px;
+  }
+  .text_logo_photo {
+    width: 203px;
+    margin-top: 40px;
+  }
+  .text_motion {
+    margin-top: 40px;
+    width: 203px;
+  }
+  .phone_samsung_1 {
+    margin-top: 51pxs;
+    display: block;
+    background-image: url("../image_main/samsung_phone.jpg");
+    width: 325px;
+    height: 173px;
+  }
+  .phone_samsung {
+    display: none;
+  }
+  .shooting_quality_mobil {
+    display: block;
+  }
+  .shooting_quality {
+    display: none;
+  }
+  .scanner_wrapper {
+    margin-top: 51px;
+  }
+  .text_motion {
+    font-family: "PT Root UI";
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+  }
+  .text_logo_photo {
+    font-family: "PT Root UI";
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+  }
+  .text_shooting {
+    font-family: "PT Root UI";
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+  }
+  .galaxy_text_block_wrapper {
+    display: none;
+  }
+
+  .img_phone_mobile {
+    display: block;
+    width: 325px;
+    height: 168px;
+    background-image: url("../image_main/galaxy-s10_accessories_cases.png");
+  }
+  .img_phone_mobile_1 {
+    display: block;
+    width: 325px;
+    height: 168px;
+    background-image: url("../image_main/часы\ galaxy-s10_accessories_power.png");
+  }
+  .img_phone_accessories {
+    display: none;
+  }
+  .img_phone_accessories_1 {
+    display: none;
+  }
+  .accessories_border_gray {
+    display: none;
+  }
+  .accessories_border_gray {
+    display: none;
+  }
+  .accessories_border_gray_mobile {
+    display: block;
+    margin-top: 25px;
+    background: #e5e5e5;
+    width: 325px;
+    height: 1px;
+  }
+  .accessories_text {
+    display: none;
+  }
+  .accessories_text_1 {
+    display: block;
+    margin-top: 20px;
+    font-family: "PT Root UI";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+  }
+  .app_border {
+    display: none;
+  }
+  .app_border_mobil {
+    display: block;
+    width: 670px;
+    background: #00000036;
+    height: 1px;
+    margin-top: 60px;
+  }
+  .galaxy_text_block_wrapper_1 {
+    display: block;
+    margin-top: 50px;
+  }
+  .galaxy_text_info {
+    width: 325px;
+    font-family: "PT Root UI";
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+  }
+  .block_text_galaxy_wrapper {
+    display: flex;
+  }
+  .gray_progressbar {
+    background: #e5e5e5;
+    width: 325px;
+    height: 1px;
+  }
+  .galaxy_text_block_wrapper_2 {
+    margin-top: 50px;
+    display: block;
+    margin-left: 20px;
+  }
+  .text_description_app_1 {
+    display: block;
+    font-family: "PT Root UI";
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+    margin-top: 20px;
+    width: 210px;
+  }
+  .text_description_app {
+    display: none;
+  }
+  .app_logo_smart {
+    width: 60px;
+    height: 61px;
+    margin-left: 67px;
+  }
+  .app_logo_smart_2 {
+    margin-left: 67px;
+  }
+  .app_logo_smart_3 {
+    margin-left: 67px;
+  }
+  .app_logo_pay_ {
+    margin-left: 67px;
+  }
+  .app_logo_smart_thing {
+    margin-left: 67px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .container {
+    max-width: 320px;
+    margin: 0 15px;
+  }
+  .text_log {
+    display: none;
+  }
+  .border_two_gray {
+    width: 290px;
+  }
+  .progressbar {
+    display: none;
+  }
+
+  .header {
+    width: 100%;
+    height: 60px;
+    border-bottom: none;
+    border-color: none;
+  }
+  .header_content {
+    width: 290px;
+  }
+  .progressbar_gray {
+    display: block;
+    margin-top: 12px;
+    background: #efefef;
+    height: 24px;
+    padding-left: 15px;
+    font-family: "PT Root UI";
+    font-size: 10px;
+    line-height: 14px;
+    color: #000000;
+    padding-top: 5px;
+    width: 320px;
+  }
+  .mobile_phones_wrapper {
+    display: none;
+  }
+  .wrapper_app_icon {
+    display: none;
+  }
+  .mini_mobile {
+    display: block;
+  }
+
+  .wrapper_mobile {
+    background: #171717;
+    border-radius: 5px;
+    width: 290px;
+    height: 307px;
+    margin-top: 30px;
+    padding-bottom: 25px;
+  }
+  .back_black_mobile {
+    margin-top: 20px;
+    position: absolute;
+    margin-left: 30px;
+    width: 230px;
+    height: 158px;
+    background-image: url("../image_main/mini_320_galaxy.png");
+  }
+  .gray_mobile {
+    position: absolute;
+    opacity: 0.25;
+    width: 260px;
+    height: 1px;
+    background: #646464;
+    margin-top: 158px;
+    margin-left: -15px;
+  }
+  .text_mobile_1_ {
+    padding-top: 198px;
+    font-family: "PT Root UI";
+    font-size: 14px;
+    line-height: 21px;
+    color: #ffffff;
+    width: 260px;
+  }
+  .circle {
+    margin-left: 30px;
+    margin-top: 40px;
+    width: 61px;
+    height: 61px;
+    background-image: url("../image_main/colours_s10.png");
+  }
+  .text_circle {
+    font-family: "PT Root UI";
+    font-size: 12px;
+    line-height: 17px;
+    color: #000000;
+    margin-top: 20px;
+  }
+  .glass_armor {
+    margin-left: 30px;
+    margin-top: 40px;
+    width: 61px;
+    height: 61px;
+    background-image: url("../image_main/gorilla_glass.jpg");
+  }
+  .glass_armor_text {
+    font-family: "PT Root UI";
+    font-size: 12px;
+    line-height: 17px;
+    color: #000000;
+    margin-top: 20px;
+  }
+  .a_circle_wrapper {
+    display: flex;
+    width: 290px;
+    justify-content: space-between;
+  }
+  .wrapper_circle_width {
+    width: 290px;
+  }
+  .phone_white_black_img {
+    margin-left: 68px;
+    width: 154px;
+    height: 180px;
+    background-image: url("../image_main/Group\ 13\ 2.png");
+  }
+  .white_border_grey_ {
+    width: 290px;
+    height: 1px;
+    background: #e5e5e5;
+    margin-top: 25px;
+  }
+  .img_phone_mobile_wrapper {
+    margin-top: 40px;
+  }
+  .text_white_black_g {
+    margin-top: 20px;
+    width: 290px;
+    font-family: "PT Root UI";
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+  }
+  .print_a_screen {
+    display: none;
+  }
+  .phone_screen {
+    margin-top: 30px;
+    background-image: url("../image_main/screen.png");
+    width: 320px;
+    height: 170px;
+  }
+  .logo_screen {
+    margin-top: 37px;
+    background-image: url("../image_main/качество_съемки.png");
+    width: 60px;
+    height: 60px;
+    margin-left: 132px;
+  }
+  .text_screen {
+    margin-top: 27px;
+    margin-left: 15px;
+    font-family: "PT Root UI";
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+    width: 290px;
+    width: 290px;
+  }
+  .photo_inst_icon {
+    margin-top: 37px;
+    width: 60px;
+    height: 60px;
+    margin-left: 131px;
+    background-image: url("../image_main/стабилизация.png");
+  }
+  .text_inst_icon {
+    margin-top: 27px;
+    margin-left: 15px;
+    font-family: "PT Root UI";
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+    width: 290px;
+  }
+  .rings_logo {
+    margin-top: 37px;
+    width: 60px;
+    height: 60px;
+    margin-left: 131px;
+    background-image: url("../image_main/замедленная_съемка.png");
+  }
+  .text_logo_rings {
+    margin-top: 27px;
+    margin-left: 15px;
+    font-family: "PT Root UI";
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+    width: 290px;
+  }
+  .shooting_a_video_mobile {
+    display: block;
+  }
+  .wrapper_accessories {
+    display: none;
+  }
+  .block_text_galaxy_wrapper {
+    display: none;
+  }
+  .accessory_phones_of_choice {
+    margin-top: 30px;
+    display: block;
+  }
+  .black_phone_and_blue {
+    margin-left: 15px;
+    width: 290px;
+    height: 150px;
+    background-image: url("../image_main/290galaxy.png");
+  }
+  .border_gray_phone_black {
+    margin-top: 25px;
+    width: 290px;
+    height: 1px;
+    background: #e5e5e5;
+    margin-top: 40px;
+  }
+  .text_black_blue {
+    margin-top: 20px;
+    margin-left: 15px;
+    width: 290px;
+    font-family: "PT Root UI";
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+  }
+  .photo_power_bank {
+    margin-top: 40px;
+    margin-left: 15px;
+    height: 150px;
+    width: 290px;
+    background-image: url("../image_main/зарядкаБезпроводная.png");
+  }
+  .text_power_bank {
+    margin-top: 20px;
+    margin-left: 15px;
+    width: 290px;
+    font-family: "PT Root UI";
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+  }
+  .border_black_powerful_1 {
+    position: absolute;
+    width: 50px;
+    height: 1px;
+    background: #000000;
+  }
+  .border_gray_power_2 {
+    background: #e5e5e5;
+    width: 130px;
+    height: 1px;
+  }
+  .line_grey_black {
+    margin-top: 40px;
+  }
+  .text_galaxy_power {
+    margin-top: 20px;
+    width: 141px;
+    font-family: "PT Root UI";
+    font-size: 12px;
+    line-height: 17px;
+    color: #000000;
+  }
+  .galaxy_power {
+    display: flex;
+    margin-left: 15px;
+  }
+  .app_border_mobil {
+    display: block;
+    width: 290px;
+    background: #00000036;
+    height: 1px;
+    margin-top: 50px;
+  }
+  .service_applacation_samsung_wrapper {
+    display: block;
+  }
+  .app____wrap {
+    display: none;
+  }
+  .logo_line_eight_smart {
+    margin-left: 15px;
+    width: 62px;
+    height: 61px;
+    background-image: url("../image_main/Smart_Switch.png");
+  }
+  .text_line_eight {
+    width: 205px;
+    font-family: "PT Root UI";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+    color: #000000;
+    margin-left: 18px;
+  }
+  .wrapper_icon_app {
+    display: flex;
+    margin-top: 30px;
+  }
+  .app_border_mobil {
+    display: block;
+    width: 290px;
+    background: #e5e5e5;
+    height: 1px;
+    margin-top: 30px;
+  }
+  .logo_line_eight_smart_1 {
+    margin-left: 15px;
+    width: 62px;
+    height: 61px;
+    background-image: url("../image_main/Samsung_Health.png");
+  }
+  .logo_line_eight_smart_2 {
+    background-image: url("../image_main/Bixby.png");
+    margin-left: 15px;
+    width: 63px;
+    height: 61px;
+  }
+  .logo_line_eight_smart_3 {
+    background-image: url("../image_main/Samsung_pay.png");
+    margin-left: 15px;
+    width: 62px;
+    height: 61px;
+  }
+  .logo_line_eight_smart_4 {
+    margin-left: 15px;
+    width: 44px;
+    height: 42px;
+    background-image: url("../image_main/path32.png");
+  }
+  .wrapper_icon_app_1 {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 100px;
+  }
+}

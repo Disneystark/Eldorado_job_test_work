@@ -1,0 +1,56 @@
+.logo_line_eight_smart {
+  margin-left: 15px;
+  width: 60px;
+  height: 61px;
+  background-image: url("../image_main/Smart_Switch.png");
+}
+.text_line_eight {
+  width: 205px;
+  font-family: "PT Root UI";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 17px;
+  color: #000000;
+  margin-left: 18px;
+}
+.wrapper_icon_app {
+  display: flex;
+  margin-top: 30px;
+}
+.wrapper_icon_app_1 {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+.app_border_mobil {
+  display: block;
+  width: 290px;
+  background: #e5e5e5;
+  height: 1px;
+  margin-top: 30px;
+}
+.logo_line_eight_smart_1 {
+  margin-left: 15px;
+  width: 60px;
+  height: 61px;
+  background-image: url("../image_main/Samsung_Health.png");
+}
+.logo_line_eight_smart_2 {
+  background-image: url("../image_main/Bixby.png");
+  margin-left: 15px;
+  width: 60px;
+  height: 61px;
+}
+.logo_line_eight_smart_3 {
+  background-image: url("../image_main/Samsung_pay.png");
+  margin-left: 15px;
+  width: 60px;
+  height: 61px;
+}
+.logo_line_eight_smart_4 {
+  margin-left: 15px;
+  width: 44px;
+  height: 42px;
+  background-image: url("../image_main/path32.png");
+}
