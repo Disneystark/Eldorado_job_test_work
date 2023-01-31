@@ -1049,6 +1049,12 @@ body {
     width: 63px;
     height: 61px;
   }
+  .image_accessories_wrapper {
+    margin-left: 20px;
+  }
+  .galaxy_text_block_wrapper {
+    margin-left: 20px;
+  }
   .logo_line_eight_smart_3 {
     background-image: url("../image_main/Samsung_pay.png");
     margin-left: 15px;
@@ -1059,6 +1065,7 @@ body {
     margin-left: 15px;
     width: 44px;
     height: 42px;
+
     background-image: url("../image_main/path32.png");
   }
   .wrapper_icon_app_1 {
